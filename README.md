@@ -14,7 +14,7 @@ Let's get started!
 
 1. Review the material about about collections, iterators (the iterable interface specifically), and generic types.  Google the information if you need to.
 2. Download the starting template for this project from https://github.com/UltimateSandbox/project-3-initial.git (Links to an external site.)  You can either fork it, clone it, or download a zip of it - your choice.  (Be sure to push a copy of it to your own repo, if you clone it or download a zip).
-3. Write a generic class called Bag that implements the Container interface below.  The bag class is just a type of container that implements methods of both the Container interface and the Iterable interface that it extends.  (You can use the IDE to implement the necessary methods.)
+3. Write a generic class called com.example.iterable.Bag that implements the Container interface below.  The bag class is just a type of container that implements methods of both the Container interface and the Iterable interface that it extends.  (You can use the IDE to implement the necessary methods.)
 4. The Container interface is defined as follows:
 ```java
 public interface Container<T> extends Iterable<T> {
@@ -23,7 +23,7 @@ public interface Container<T> extends Iterable<T> {
     void add(T item);
 }
 ```
-5. Your Bag implementation must use the Java ArrayList to implement the Container interface.  (i.e. the backing object used to store items in your Bag class must be an ArrayList.)
+5. Your com.example.iterable.Bag implementation must use the Java ArrayList to implement the Container interface.  (i.e. the backing object used to store items in your com.example.iterable.Bag class must be an ArrayList.)
 6. ***Note:***  Do not change or add to the Container interface.
 7. ***Note:***  Do not change or add to the code in the BagManager class.  This is your driver and will help you to code your bag.
 8. ***Note:***  You do not need to implement the forEach or the spliterator methods of Iterable.  Only implement the iterator method.  Those other 2 methods are optional (because they are default methods in Iterable.)  You may, however, implement them if you want a challenge.
@@ -33,6 +33,6 @@ public interface Container<T> extends Iterable<T> {
 
 - This project is actually a very simple one - if you don't make it more complex than it needs to be. This is probably the most simple project out of all of them this semester.
 - Look up how to create a generic class (if you don't remember), or find examples.  (https://docs.oracle.com/javase/tutorial/java/generics/types.html (Links to an external site.) is a good starting point.)
-- Remember, your Bag class is just a wrapper around the ArrayList you'll create as a field inside of it.  All of the operations of your class are just 'pass-throughs' for the ArrayList methods of the same names.  (That's a huge hint right there!)
-- Use the driver code to figure out how the methods need to be implemented.  In other words, fix the errors in your driver without changing the driver code and you'll have implemented your Bag class correctly (more or less).
-- You're going to get to a point with your Bag class where you're going to look at it and say "Is it really that easy?!" The answer is "Yes!"
+- Remember, your com.example.iterable.Bag class is just a wrapper around the ArrayList you'll create as a field inside of it.  All of the operations of your class are just 'pass-throughs' for the ArrayList methods of the same names.  (That's a huge hint right there!)
+- Use the driver code to figure out how the methods need to be implemented.  In other words, fix the errors in your driver without changing the driver code and you'll have implemented your com.example.iterable.Bag class correctly (more or less).
+- You're going to get to a point with your com.example.iterable.Bag class where you're going to look at it and say "Is it really that easy?!" The answer is "Yes!"

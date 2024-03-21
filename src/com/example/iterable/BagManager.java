@@ -12,7 +12,7 @@ import java.util.Iterator;
  * Peach
  *
  * Empty? false
- * Bag size: 5
+ * com.example.iterable.Bag size: 5
  *
  * Apple
  * Orange
@@ -35,7 +35,7 @@ public class BagManager {
         System.out.println();
 
         System.out.println("Empty? " + stringBag.isEmpty());
-        System.out.println("Bag size: " + stringBag.size());
+        System.out.println("com.example.iterable.Bag size: " + stringBag.size());
         System.out.println();
 
         Iterator<String> iter = stringBag.iterator();
